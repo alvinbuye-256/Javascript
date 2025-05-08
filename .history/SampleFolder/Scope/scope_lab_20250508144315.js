@@ -33,4 +33,5 @@ const globalConst = "I'm A global Constant";
     console.log(functionLet);// Throws ReferenceError
     console.log(functionConst);// Throws ReferenceError
 
-   
+    console.log(blockVar);
+    console.log(blockLet);

@@ -17,8 +17,8 @@ const globalConst = "I'm A global Constant";
     console.log(globalConst); // Output: "I'm a global constant"
     
 //Block Scope
-    //console.log(blockVar);
-    //console.log(blockLet);
+    console.log(blockVar);
+    console.log(blockLet);
     
     
 
@@ -29,8 +29,4 @@ const globalConst = "I'm A global Constant";
     }
     show();
 
-    console.log(functionVar);// Throws ReferenceError
-    console.log(functionLet);// Throws ReferenceError
-    console.log(functionConst);// Throws ReferenceError
-
-   
+    console.log(func);
