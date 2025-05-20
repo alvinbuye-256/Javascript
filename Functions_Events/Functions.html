@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rectangle Area Calculator</title>
+
+    </head>
+
+    <body>
+
+        <h1>Rectangle Area Calculator</h1>
+        <label for="length">Length:</label>
+        <input type="number" id="length" placeholder="Enter length">
+        <br>
+
+        <label for="width">Width:</label>
+        <input type="number" id="width" placeholder="Enter width">
+        <br>
+        <button onclick="calculateArea()">Calculate Area</button>
+        <br>
+
+        <p id="result"></p>
+        <p id="error"></p>
+
+        <script src="functions.js"></script>
+
+    </body>
+
+</html>
+<!-- Page title and heading: Sets up a webpage titled "Rectangle Area Calculator" and presents a primary heading <h1> displaying the same title, ensuring clarity about the page's purpose.
+
+Input fields for user data: Provides input fields labeled for length and width <input type="number" id="length"> and <input type="number" id="width"> to allow users to input numerical values for the rectangle's dimensions.
+
+Calculation trigger and display: Includes a button <button onclick="calculateArea()">Calculate Area</button> to execute a JavaScript function named calculateArea() upon clicking. The calculated result of the rectangle's area will be displayed within the <p> element with the ID 'result'.
+
+Dynamic result display: Prepares a placeholder <p id="result"></p> to dynamically display the calculated area, creating a user-friendly interface for real-time feedback after the calculation is performed.
+
+One <script> tag is added to include the js file in the calculate_Area.html file using the src attribute -->
