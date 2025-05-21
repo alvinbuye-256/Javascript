@@ -53,4 +53,5 @@ function decreaseCount() {
 function resetCount() {
   count = 0; // Reset the count to 0
   displayCount(); // Display the reset count
+  alert("Your follower count has been reset to 0!"); // Alert the user
 }
