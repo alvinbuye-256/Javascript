@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>interactive  Counter</title>
+
+    </head>
+    <body>
+        <h1>interactive counter</h1>
+        <h2>Account Holder Name: Peter Parker</h2>
+        <p>Followers: <span id="countDisplay">0</span></p>
+        <hr>
+        <h2>Click one button to follow</h2>
+        <button onclick="increaseCount()">Follow</button> br <br>
+        <button onclick="decreaseCount()">Unfollow</button> br <br>
+        <button onclick="resetCount()">Reset</button> br <br>
+        
+        <script src="followers_count.js"></script>
+        </body> 
+
+</html>
+<!-- Above code includes a basic setup for a follow button that updates the follower count in real-time when clicked. The code has:-
+
+"Interactive Counter" as heading for Peter Parker’s account using <h1>. The code has <h2> tag shows his name and the number of followers, initially set to 0 using <p> tag.
+
+There’s a button labeled “Follow” that, when clicked, triggers a function called “increaseCount()”. This function increments the follower count displayed on the page.
+
+It has one <script> tag to include js file in followers_count.html file using src attribute.-->
